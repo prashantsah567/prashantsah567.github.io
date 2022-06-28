@@ -1,0 +1,35 @@
+.h3-header {
+    color: rgb(165, 98, 98);
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.desc {
+    background-color: rgb(240, 241, 242);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: #422800 10px 10px 0 0;
+}
+
+.desc-1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.icon {
+    width: 28px;
+    margin-right: 0.7rem;
+}
+
+.txt{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h4{
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+}

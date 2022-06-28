@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Sah</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="active">Home</a>
+        <a href="About/about.html">About</a>
+        <a href="Experience/experience.html">Experience</a>
+        <a href="Project/project.html">Projects</a>
+        <a href="Contact/contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <br>
+    <div class="index-row">
+        <div class="index-column">
+            <div class="circleBase type3"></div>
+        </div>
+        <div class="index-column">
+            <div class="welcome-text">
+                <h1>Prashant Sah</h1>
+                <p id="bio">Welcome to my website!!!</p>
+                <script>
+                    const bioList = ["Full Stack Developer", "Android developer", "IOS developer"];
+                    const element = document.getElementById("bio");
+                    setInterval(function(){
+                        element.innerHTML = bioList[Math.floor(Math.random()*bioList.length)]
+                    }, 500);
+                </script>
+                <a href="Files/Resume1.2.pdf" download>Download Resume</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <footer>
+        <div class="home-footer-content">
+            <ul class="socials">
+                <li><a href="https://github.com/prashantsah567" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/sah001" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://lagcc-cuny.digication.com/prashant001/about_me/published" target="_blank"><i
+                            class="fa fa-book"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCD4QMJmpFibHk___hZn8XBA" target="_blank"><i
+                            class="fa fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/prashan37149576" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prashant Sah</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="../index.css">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../index.js"></script>
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html">Home</a>
+    <a href="../About/about.html">About</a>
+    <a href="../Experience/experience.html">Experience</a>
+    <a href="../Project/project.html">Projects</a>
+    <a href="#" class="active">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <br>
+  <div class="container">
+    <span class="big-circle"></span>
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Let's get in touch</h3>
+        <p class="text">
+          I am happy to be connecting with you!
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <img src="../Images/location1.png" class="icon" alt="" />
+            <p>New York City, NY 11373</p>
+          </div>
+          <div class="information">
+            <img src="../Images/email1.png" class="icon" alt="" />
+            <p>prashantsah467@gmail.com</p>
+          </div>
+          <div class="information">
+            <img src="../Images/phone1.png" class="icon" alt="" />
+            <p>xxx-xxx-xxxx</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Socialize with me :</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100011625919168" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/prashantshah9394/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form onsubmit="sendEmail(); reset(); return false;" autocomplete="off">
+          <h3 class="title">Contact me</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" id="name" required/>
+            <label for="">Full name</label>
+            <span>Full name</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" id="email" required/>
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="number" name="phone" class="input" id="phone" required/>
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input" id="message" required></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btn" />
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <ul class="socials">
+        <li><a href="https://github.com/prashantsah567" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/sah001" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+        <li><a href="https://lagcc-cuny.digication.com/prashant001/about_me/published" target="_blank"><i class="fa fa-book"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCD4QMJmpFibHk___hZn8XBA" target="_blank"><i
+              class="fa fa-youtube"></i></a></li>
+        <li><a href="https://twitter.com/prashan37149576" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="contact.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
