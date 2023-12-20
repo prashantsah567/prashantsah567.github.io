@@ -30,3 +30,13 @@ h4{
     font-size: large;
     font-family:'Courier New', Courier, monospace;
 }
+
+/* ----------------------------------------------Designing the about me section ----------------------------------- */
+#h1-about{
+    text-align: center;
+}
+
+.skills-highlight{
+    font-weight: bold;
+    color: #6e5858;
+}
