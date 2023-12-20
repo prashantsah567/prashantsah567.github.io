@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prashant Sah</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./main/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Share+Tech+Mono&display=swap"
@@ -36,15 +36,24 @@
         <div class="index-column">
             <div class="welcome-text">
                 <h1>Prashant Sah</h1>
-                <p id="bio">Welcome to my website!!!</p>
+                <p id="bio">Welcome to my website!!</p>
                 <script>
-                    const bioList = ["Full Stack Developer", "Android developer", "IOS developer"];
+                    const bioList = ["Full Stack Developer", "Android Developer", "IOS Developer", "Java Developer", "Web Developer"];
                     const element = document.getElementById("bio");
                     setInterval(function(){
                         element.innerHTML = bioList[Math.floor(Math.random()*bioList.length)]
                     }, 500);
                 </script>
+                <class class="bioDetails">
+                    <p>
+                        Welcome to the world of Prashant, a tech enthusiast and problem solver on a mission to craft digital wonders! <br>
+                        With a passion for coding and a knack for creative solutions, I brings a dynamic blend of technical prowess and a collaborative spirit. <br>
+                        Whether diving into the intricacies of software engineering or conquering coding challenges, I'm dedicated to making an impact. 
+                    </p>
+                </class>
                 <a href="Files/Resume.pdf" download>Download Resume</a>
+                <a href="Files/Resume.pdf" download>Download Transcript</a>
+                <a href="Files/Resume.pdf" download>Download Cover Letter</a>
             </div>
             <br>
         </div>
@@ -65,5 +74,5 @@
         </div>
     </footer>
 </body>
-<script type="text/javascript" defer src="index.js"></script>
+<script type="text/javascript" defer src="./main/index.js"></script>
 </html>
