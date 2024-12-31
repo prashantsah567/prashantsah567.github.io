@@ -1,10 +1,10 @@
 # portfolio website
 
--> This is my portfolio website that best describes me
-
 -> Explore my major works and projects
 
--> I have build it using HTML, CSS and JavaScript
+-> Technology used: HTML, CSS, and JavaScript
+
+Note: I haven't updated this in a while
 
 -----Here is the link------
 
