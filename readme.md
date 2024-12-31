@@ -4,7 +4,7 @@
 
 -> Technology used: HTML, CSS, and JavaScript
 
-Note: I haven't updated this in a while
+**💡 Note:** *This is an additional piece of information.*
 
 -----Here is the link------
 
